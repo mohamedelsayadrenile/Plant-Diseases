@@ -33,6 +33,7 @@ class PestDetectionService:
                     confidence=prediction.confidence,
                     risk_flag=risk_info.risk_flag,
                     message=risk_info.message,
+                    recommendation=risk_info.recommendation
                 )
             )
 

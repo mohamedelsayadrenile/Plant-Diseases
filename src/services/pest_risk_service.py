@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
+import pandas as pd
 
 
 UNKNOWN_RISK_FLAG = "غير معروف"
@@ -11,11 +12,12 @@ SEVERE_RISK_FLAG = "شديد الخطورة"
 class PestRiskInfo:
     risk_flag: str
     message: str | None
+    recommendation: str | None = None
 
 
 class PestRiskService:
-    def __init__(self, risk_table_path: Path | None = None) -> None:
-        self._risk_table_path = risk_table_path or Path(__file__).resolve().parents[2] / "ip102_pest_risk_egypt_ksa.md"
+    def __init__(self, reference_file_path: Path | None = None) -> None:
+        self._reference_file_path = reference_file_path or Path(__file__).resolve().parents[2] / "reference.csv"
         self._risk_by_label = self._load_risk_table()
 
     def get_risk_info(self, label: str) -> PestRiskInfo:
@@ -26,23 +28,21 @@ class PestRiskService:
         return risk_info
 
     def _load_risk_table(self) -> dict[str, PestRiskInfo]:
-        if not self._risk_table_path.exists():
+        if not self._reference_file_path.exists():
             return {}
 
         risk_by_label: dict[str, PestRiskInfo] = {}
-        for line in self._risk_table_path.read_text(encoding="utf-8").splitlines():
-            columns = [column.strip() for column in line.strip().strip("|").split("|")]
-            if len(columns) != 4 or not columns[0].isdigit():
-                continue
-
-            label = columns[1].strip("`")
-            risk_flag = columns[2]
-            severe_message = columns[3] if risk_flag == SEVERE_RISK_FLAG and columns[3] else None
+        df = pd.read_csv(self._reference_file_path)
+        for _, row in df.iterrows():
+            label = row["class"]
+            risk_flag = row["risk level"]
+            severe_message = row["message"] if risk_flag == SEVERE_RISK_FLAG and pd.notnull(row["message"]) else None
+            recommendation_message = row["recommendation"] if pd.notnull(row["recommendation"]) else None
             risk_by_label[self._normalize_label(label)] = PestRiskInfo(
                 risk_flag=risk_flag,
                 message=severe_message,
+                recommendation=recommendation_message
             )
-
         return risk_by_label
 
     @staticmethod

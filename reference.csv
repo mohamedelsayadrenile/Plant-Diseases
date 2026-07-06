@@ -1,0 +1,103 @@
+class,risk level,recommendation,message
+rice leaf roller,شديد الخطورة,Chlorantraniliprole أو Cartap أو Emamectin benzoate,يرقات تتغذى على أوراق الأرز وتلفّها، وقد تسبب فقدًا واضحًا في المسطح الورقي عند الإصابة العالية؛ أهميتها ترتفع في مناطق زراعة الأرز.
+rice leaf caterpillar,شديد الخطورة,Chlorantraniliprole أو Cartap أو Emamectin benzoate,يرقات آكلة للأوراق في الأرز؛ تصبح شديدة الخطورة عند الكثافة العالية لأنها تقلل التمثيل الضوئي وتضعف النمو.
+paddy stem maggot,خطر,Chlorantraniliprole أو Cartap أو Emamectin benzoate,
+asiatic rice borer,شديد الخطورة,Chlorantraniliprole أو Emamectin benzoate,حفار سيقان الأرز؛ يدخل داخل الساق فيصعب رصده مبكرًا، وقد يسبب موت القمم أو السنابل البيضاء وخسارة إنتاجية.
+yellow rice borer,شديد الخطورة,Chlorantraniliprole أو Emamectin benzoate,حفار مهم في الأرز؛ خطورته في أنه يتغذى داخل الساق ويسبب تلفًا داخليًا لا يظهر بالكامل إلا بعد تقدم الإصابة.
+rice gall midge,خطر,Chlorantraniliprole أو Cartap أو Emamectin benzoate,
+Rice Stemfly,خطر,Chlorantraniliprole أو Cartap أو Emamectin benzoate,
+brown plant hopper,شديد الخطورة,Buprofezin أو Pymetrozine أو Acetamiprid,يمتص العصارة من نباتات الأرز وقد يسبب hopper burn، وبعض الأنواع القريبة تنقل أمراضًا فيروسية؛ خطره يزيد مع الكثافات العالية.
+white backed plant hopper,شديد الخطورة,Buprofezin أو Pymetrozine أو Acetamiprid,حشرة ماصة على الأرز؛ تسبب ضعفًا سريعًا للنباتات وقد ترتبط بنقل أمراض فيروسية في نظم الأرز الآسيوية.
+small brown plant hopper,خطر,Buprofezin أو Pymetrozine أو Acetamiprid,
+rice water weevil,خطر,Chlorantraniliprole أو Cartap أو Emamectin benzoate,
+rice leafhopper,خطر,Buprofezin أو Pymetrozine أو Acetamiprid,
+grain spreader thrips,خطر,Spinosad أو Spinetoram أو Abamectin,
+rice shell pest,خطر,Chlorantraniliprole أو Cartap أو Emamectin benzoate,
+grub,خطر,Chlorantraniliprole أو Tefluthrin/مادة تربة مسجلة,
+mole cricket,خطر,Chlorantraniliprole أو Tefluthrin/مادة تربة مسجلة,
+wireworm,خطر,Chlorantraniliprole أو Tefluthrin/مادة تربة مسجلة,
+white margined moth,طبيعي,,
+black cutworm,خطر,Indoxacarb أو Chlorantraniliprole أو Lambda-cyhalothrin,
+large cutworm,خطر,Indoxacarb أو Chlorantraniliprole أو Lambda-cyhalothrin,
+yellow cutworm,خطر,Indoxacarb أو Chlorantraniliprole أو Lambda-cyhalothrin,
+red spider,شديد الخطورة,Abamectin أو Bifenazate أو Spiromesifen,أكاروس/عنكبوت نباتي ماص للعصارة؛ يتكاثر بسرعة في الحرارة والجفاف، ويسبب اصفرارًا وبرونزية وتساقطًا في الأوراق.
+corn borer,شديد الخطورة,Chlorantraniliprole أو Emamectin benzoate,حفار الذرة يدخل داخل الساق أو الكيزان، فيصعب الوصول إليه بالمكافحة بعد الدخول، ويسبب كسرًا وضعفًا وخسارة في المحصول.
+army worm,شديد الخطورة,Emamectin benzoate أو Chlorantraniliprole أو Indoxacarb,يرقات شرهة تتحرك في مجموعات وتلتهم الأوراق بسرعة؛ قد تحول الإصابة من محدودة إلى خسارة كبيرة خلال أيام.
+aphids,شديد الخطورة,Flonicamid أو Pirimicarb أو Acetamiprid,المن حشرات ماصة تتكاثر بسرعة وتفرز عسلية وتشجع العفن الهبابي، وبعض الأنواع تنقل فيروسات نباتية خطيرة.
+Potosiabre vitarsis,طبيعي,,
+peach borer,خطر,Chlorantraniliprole أو Emamectin benzoate,
+english grain aphid,شديد الخطورة,Flonicamid أو Pirimicarb أو Acetamiprid,منّ الحبوب؛ يمتص العصارة من القمح والشعير وقد يضعف السنابل وينقل فيروسات في الحبوب.
+green bug,شديد الخطورة,Flonicamid أو Pirimicarb أو Acetamiprid,منّ أخضر على الحبوب؛ يسبب اصفرارًا وحقن سموم نباتية، وقد يكون شديد التأثير على القمح والشعير.
+bird cherry-oataphid,شديد الخطورة,Flonicamid أو Pirimicarb أو Acetamiprid,منّ شائع على الحبوب، خطورته الأساسية في نقل فيروسات مثل barley yellow dwarf في نظم الحبوب.
+wheat blossom midge,خطر,Cyromazine أو Spinosad أو Lambda-cyhalothrin حسب نوع اليرقة/الحشرة,
+penthaleus major,خطر,Abamectin أو Bifenazate أو Spiromesifen,
+longlegged spider mite,شديد الخطورة,Abamectin أو Bifenazate أو Spiromesifen,أكاروس نباتي قريب من مشاكل العنكبوتيات؛ يمتص العصارة ويتكاثر سريعًا في الظروف الجافة والحارة.
+wheat phloeothrips,خطر,Spinosad أو Spinetoram أو Abamectin,
+wheat sawfly,خطر,Cyromazine أو Spinosad أو Lambda-cyhalothrin حسب نوع اليرقة/الحشرة,
+cerodonta denticornis,خطر,Abamectin أو Cyromazine أو Spinosad,
+beet fly,خطر,Cyromazine أو Spinosad أو Lambda-cyhalothrin حسب نوع اليرقة/الحشرة,
+flea beetle,شديد الخطورة,Acetamiprid أو Lambda-cyhalothrin أو Deltamethrin,خنافس صغيرة تقرض الأوراق وتسبب ثقوبًا كثيرة، وخطورتها أعلى على البادرات والنباتات الصغيرة.
+cabbage army worm,شديد الخطورة,Emamectin benzoate أو Chlorantraniliprole أو Indoxacarb,يرقات آكلة للأوراق في الخضروات الصليبية؛ تسبب تآكلًا سريعًا وفقد جودة تسويقية كبير.
+beet army worm,شديد الخطورة,Emamectin benzoate أو Chlorantraniliprole أو Indoxacarb,سبودوبترا متعددة العوائل؛ تصيب خضر ومحاصيل كثيرة، وتسبب تلفًا سريعًا للأوراق والثمار وقد تظهر مقاومة للمبيدات.
+Beet spot flies,خطر,مادة فعالة مسجلة حسب المحصول: Acetamiprid أو Lambda-cyhalothrin كاختيار مبدئي فقط,
+meadow moth,خطر,Emamectin benzoate أو Chlorantraniliprole أو Spinosad,
+beet weevil,خطر,Acetamiprid أو Lambda-cyhalothrin أو Chlorantraniliprole,
+sericaorient alismots chulsky,طبيعي,,
+alfalfa weevil,خطر,Acetamiprid أو Lambda-cyhalothrin أو Chlorantraniliprole,
+flax budworm,طبيعي,,
+alfalfa plant bug,خطر,Acetamiprid أو Flonicamid أو Lambda-cyhalothrin,
+tarnished plant bug,خطر,Acetamiprid أو Flonicamid أو Lambda-cyhalothrin,
+Locustoidea,خطر,Lambda-cyhalothrin أو Deltamethrin,
+lytta polita,طبيعي,,
+legume blister beetle,خطر,Acetamiprid أو Lambda-cyhalothrin أو Deltamethrin,
+blister beetle,خطر,Acetamiprid أو Lambda-cyhalothrin أو Deltamethrin,
+therioaphis maculata Buckton,خطر,Flonicamid أو Pirimicarb أو Acetamiprid,
+odontothrips loti,خطر,Spinosad أو Spinetoram أو Abamectin,
+Thrips,شديد الخطورة,Spinosad أو Spinetoram أو Abamectin,التربس حشرات صغيرة ماصة وكاشطة؛ تسبب تشوهات وفضية على الأوراق والثمار، وبعضها ناقل فيروسات، وصعبة الرصد مبكرًا.
+alfalfa seed chalcid,خطر,Lambda-cyhalothrin أو Acetamiprid,
+Pieris canidia,خطر,Emamectin benzoate أو Chlorantraniliprole أو Spinosad,
+Apolygus lucorum,خطر,Acetamiprid أو Flonicamid أو Lambda-cyhalothrin,
+Limacodidae,خطر,Emamectin benzoate أو Chlorantraniliprole أو Spinosad,
+Viteus vitifoliae,خطر,مادة فعالة مسجلة حسب المحصول: Acetamiprid أو Lambda-cyhalothrin كاختيار مبدئي فقط,
+Colomerus vitis,خطر,Abamectin أو Bifenazate أو Spiromesifen,
+Brevipoalpus lewisi McGregor,خطر,Abamectin أو Bifenazate أو Spiromesifen,
+oides decempunctata,طبيعي,,
+Polyphagotars onemus latus,خطر,Abamectin أو Bifenazate أو Spiromesifen,
+Pseudococcus comstocki Kuwana,شديد الخطورة,Spirotetramat أو Acetamiprid + زيت معدني,بق دقيقي يمتص العصارة ويفرز عسلية تؤدي لعفن هبابي؛ خطير في العنب والفاكهة والنباتات المحمية عند انتشاره.
+parathrene regalis,خطر,Chlorantraniliprole أو Emamectin benzoate,
+Ampelophaga,خطر,Emamectin benzoate أو Chlorantraniliprole أو Spinosad,
+Lycorma delicatula,خطر,مادة فعالة مسجلة حسب المحصول: Acetamiprid أو Lambda-cyhalothrin كاختيار مبدئي فقط,
+Xylotrechus,خطر,Chlorantraniliprole أو Emamectin benzoate,
+Cicadella viridis,خطر,Buprofezin أو Pymetrozine أو Acetamiprid,
+Miridae,خطر,Acetamiprid أو Flonicamid أو Lambda-cyhalothrin,
+Trialeurodes vaporariorum,شديد الخطورة,Pyriproxyfen أو Buprofezin أو Spirotetramat أو Cyantraniliprole,ذبابة بيضاء greenhouse whitefly؛ تمتص العصارة وتفرز عسلية وتنقل/تساعد على انتشار مشاكل فيروسية وفطرية، وخطيرة في الصوب.
+Erythroneura apicalis,خطر,مادة فعالة مسجلة حسب المحصول: Acetamiprid أو Lambda-cyhalothrin كاختيار مبدئي فقط,
+Papilio xuthus,طبيعي,,
+Panonchus citri McGregor,خطر,Abamectin أو Bifenazate أو Spiromesifen,
+Phyllocoptes oleiverus ashmead,خطر,Abamectin أو Bifenazate أو Spiromesifen,
+Icerya purchasi Maskell,شديد الخطورة,Spirotetramat أو Acetamiprid + زيت معدني,حشرة قشرية/قطنية على الموالح ونباتات زينة؛ تضعف الأشجار وتفرز عسلية وتسبب عفنًا هبابيًا.
+Unaspis yanonensis,شديد الخطورة,زيت معدني + Pyriproxyfen أو Spirotetramat,حشرة قشرية على الموالح؛ تسبب ضعفًا وتدهورًا للأفرع والثمار عند الإصابة الشديدة.
+Ceroplastes rubens,شديد الخطورة,زيت معدني + Pyriproxyfen أو Spirotetramat,حشرة قشرية شمعية؛ تمتص العصارة وتؤدي للعسلية والعفن الهبابي وضعف النبات، خاصة في الفاكهة والموالح.
+Chrysomphalus aonidum,شديد الخطورة,زيت معدني + Pyriproxyfen أو Spirotetramat,حشرة قشرية مدرعة على الموالح؛ تقلل جودة الثمار وتضعف الأشجار، والسيطرة عليها صعبة عند تراكم الأجيال.
+Parlatoria zizyphus Lucus,شديد الخطورة,زيت معدني + Pyriproxyfen أو Spirotetramat,حشرة قشرية سوداء على الموالح؛ تسبب تبقع الثمار وضعف النمو وخسائر تسويقية.
+Nipaecoccus vastalor,شديد الخطورة,Spirotetramat أو Acetamiprid + زيت معدني,بق دقيقي/قريب من mealybugs؛ خطير لأنه ينتشر في تجمعات ويفرز عسلية ويتسبب في عفن هبابي وضعف عام.
+Aleurocanthus spiniferus,شديد الخطورة,Pyriproxyfen أو Buprofezin أو Spirotetramat أو Cyantraniliprole,ذبابة بيضاء شوكية على الموالح والشاي؛ تمتص العصارة وتفرز عسلية وتسبب عفنًا هبابيًا كثيفًا.
+Tetradacus c Bactrocera minax,شديد الخطورة,Spinosad bait أو Protein bait + مادة مسجلة لذبابة الفاكهة,ذبابة فاكهة/موالح؛ خطيرة لأنها تضع البيض داخل الثمار، فتتلف الثمرة داخليًا وتؤثر على التصدير والحجر الزراعي.
+Dacus dorsalis(Hendel),شديد الخطورة,Spinosad bait أو Protein bait + مادة مسجلة لذبابة الفاكهة,ذبابة فاكهة شرقية؛ آفة حجرية متعددة العوائل، تتلف الثمار من الداخل وتسبب رفضًا تسويقيًا وتصديريًا.
+Bactrocera tsuneonis,شديد الخطورة,Spinosad bait أو Protein bait + مادة مسجلة لذبابة الفاكهة,ذبابة فاكهة مرتبطة بالموالح؛ خطورتها في إصابة الثمار داخليًا وصعوبة اكتشاف التلف مبكرًا.
+Prodenia litura,شديد الخطورة,Emamectin benzoate أو Chlorantraniliprole أو Indoxacarb,سبودوبترا/دودة ورقية متعددة العوائل؛ تلتهم الأوراق والثمار وتنتشر سريعًا وقد تكون صعبة المكافحة.
+Adristyrannus,طبيعي,,
+Phyllocnistis citrella Stainton,شديد الخطورة,Abamectin أو Cyromazine أو Spinosad,صانعة أنفاق أوراق الموالح؛ اليرقات تحفر داخل نصل الورقة، فتشوه النموات الحديثة وتضعف الشتلات والأشجار الصغيرة.
+Toxoptera citricidus,شديد الخطورة,Flonicamid أو Pirimicarb أو Acetamiprid,منّ الموالح البني؛ شديد الخطورة عالميًا لأنه ناقل فعال لفيروس tristeza في الموالح.
+Toxoptera aurantii,شديد الخطورة,Flonicamid أو Pirimicarb أو Acetamiprid,منّ أسود/بني على الموالح ومحاصيل أخرى؛ يضعف النمو ويفرز عسلية وقد ينقل فيروسات نباتية.
+Aphis citricola Vander Goot,شديد الخطورة,Flonicamid أو Pirimicarb أو Acetamiprid,منّ الموالح/التفاح؛ يهاجم النموات الحديثة ويشوه الأوراق، وقد يساهم في نقل فيروسات.
+Scirtothrips dorsalis Hood,شديد الخطورة,Spinosad أو Spinetoram أو Abamectin,تربس الفلفل/الفلفل الحار؛ يسبب تشوهات شديدة في النموات والثمار، ويمثل خطرًا عاليًا في الصوب والخضر.
+Dasineura sp,خطر,Cyromazine أو Spinosad أو Lambda-cyhalothrin حسب نوع اليرقة/الحشرة,
+Lawana imitata Melichar,طبيعي,,
+Salurnis marginella Guerr,طبيعي,,
+Deporaus marginatus Pascoe,طبيعي,,
+Chlumetia transversa,طبيعي,,
+Mango flat beak leafhopper,خطر,Buprofezin أو Pymetrozine أو Acetamiprid,
+Rhytidodera bowrinii white,طبيعي,,
+Sternochetus frigidus,شديد الخطورة,Chlorantraniliprole أو Emamectin benzoate,سوسة المانجو/البذور؛ تهاجم الثمار والبذور وقد تسبب خسائر حجرية وتسويقية في المانجو.
+Cicadellidae,شديد الخطورة,Buprofezin أو Pymetrozine أو Acetamiprid,نطاطات أوراق متعددة الأنواع؛ تمتص العصارة وبعضها ناقل لأمراض نباتية، وتحتاج تعريفًا أدق للنوع لتقدير الخطر.
