@@ -27,3 +27,12 @@ class ImagePreprocessingService:
         image_array = (image_array - self._mean) / self._std
         image_tensor = torch.from_numpy(image_array).permute(2, 0, 1).contiguous()
         return image_tensor.unsqueeze(0)
+
+
+class PestImagePreprocessingService:
+    def decode(self, image_bytes: bytes) -> Image.Image:
+        try:
+            with Image.open(BytesIO(image_bytes)) as image:
+                return image.convert("RGB").copy()
+        except (UnidentifiedImageError, OSError) as exc:
+            raise InvalidImageError("Uploaded file is not a valid image") from exc

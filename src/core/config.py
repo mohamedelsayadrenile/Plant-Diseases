@@ -6,15 +6,20 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    app_name: str = Field(default="Plant Disease Classifier API", alias="APP_NAME")
+    app_name: str = Field(default="Crop Intelligence API", alias="APP_NAME")
     api_v1_prefix: str = Field(default="/api/v1", alias="API_V1_PREFIX")
 
-    model_repo_id: str = Field(default="eymenslimani/plant-disease-detector", alias="MODEL_REPO_ID")
-    model_filename: str = Field(default="best_model.pth", alias="MODEL_FILENAME")
-    model_arch: str = Field(default="tf_efficientnetv2_m.in21k_ft_in1k", alias="MODEL_ARCH")
-    model_num_classes: int = Field(default=28, alias="MODEL_NUM_CLASSES")
+    plant_model_repo_id: str = Field(default="eymenslimani/plant-disease-detector", alias="PLANT_MODEL_REPO_ID")
+    plant_model_filename: str = Field(default="best_model.pth", alias="PLANT_MODEL_FILENAME")
+    plant_model_arch: str = Field(default="tf_efficientnetv2_m.in21k_ft_in1k", alias="PLANT_MODEL_ARCH")
+    plant_model_num_classes: int = Field(default=28, alias="PLANT_MODEL_NUM_CLASSES")
+    plant_image_size: int = Field(default=256, alias="PLANT_IMAGE_SIZE")
 
-    image_size: int = Field(default=256, alias="IMAGE_SIZE")
+    pest_model_repo_id: str = Field(default="underdogquality/yolo11s-pest-detection", alias="PEST_MODEL_REPO_ID")
+    pest_model_filename: str = Field(default="best.pt", alias="PEST_MODEL_FILENAME")
+    pest_image_size: int = Field(default=640, alias="PEST_IMAGE_SIZE")
+    pest_confidence_threshold: float = Field(default=0.25, alias="PEST_CONFIDENCE_THRESHOLD")
+
     top_k: int = Field(default=5, alias="TOP_K")
     device: str = Field(default="auto", alias="DEVICE")
     log_level: str = Field(default="INFO", alias="LOG_LEVEL")

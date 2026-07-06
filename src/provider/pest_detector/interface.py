@@ -1,20 +1,19 @@
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
-
-import torch
+from typing import Any
 
 
 @dataclass(frozen=True)
-class ClassificationPrediction:
+class PestPrediction:
     label: str
     confidence: float
 
 
-class ClassifierProvider(ABC):
+class PestDetectorProvider(ABC):
     @abstractmethod
     def load(self) -> None:
         raise NotImplementedError
 
     @abstractmethod
-    def predict(self, input_tensor: torch.Tensor, top_k: int) -> list[ClassificationPrediction]:
+    def predict(self, image_source: Any, top_k: int) -> list[PestPrediction]:
         raise NotImplementedError

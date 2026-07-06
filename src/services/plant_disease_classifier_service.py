@@ -1,25 +1,28 @@
 import asyncio
 
 from src.core.config import Settings
-from src.models.schemas.prediction import PredictionItem, PredictionResponse
-from src.provider.classifier.interface import ClassifierProvider
+from src.models.schemas.plant_disease_prediction import (
+    PlantDiseasePredictionItem,
+    PlantDiseasePredictionResponse,
+)
+from src.provider.plant_disease_classifier.interface import PlantDiseaseClassifierProvider
 from src.services.image_preprocessing_service import ImagePreprocessingService
 
 
 class PlantDiseaseClassifierService:
-    def __init__(self, classifier_provider: ClassifierProvider, settings: Settings) -> None:
+    def __init__(self, classifier_provider: PlantDiseaseClassifierProvider, settings: Settings) -> None:
         self._classifier_provider = classifier_provider
         self._settings = settings
-        self._image_preprocessor = ImagePreprocessingService(image_size=settings.image_size)
+        self._image_preprocessor = ImagePreprocessingService(image_size=settings.plant_image_size)
 
-    async def predict(self, image_bytes: bytes) -> PredictionResponse:
+    async def predict(self, image_bytes: bytes) -> PlantDiseasePredictionResponse:
         if not image_bytes:
             raise ValueError("Uploaded image is empty")
 
         predictions = await asyncio.to_thread(self._predict_sync, image_bytes)
-        return PredictionResponse(
+        return PlantDiseasePredictionResponse(
             predictions=[
-                PredictionItem(label=prediction.label, confidence=prediction.confidence)
+                PlantDiseasePredictionItem(label=prediction.label, confidence=prediction.confidence)
                 for prediction in predictions
             ]
         )

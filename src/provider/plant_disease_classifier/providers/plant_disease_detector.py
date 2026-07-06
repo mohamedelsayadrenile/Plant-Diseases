@@ -6,7 +6,10 @@ from huggingface_hub import hf_hub_download
 
 from src.core.config import Settings
 from src.core.logger import get_logger
-from src.provider.classifier.interface import ClassificationPrediction, ClassifierProvider
+from src.provider.plant_disease_classifier.interface import (
+    PlantDiseaseClassifierProvider,
+    PlantDiseasePrediction,
+)
 
 
 logger = get_logger(__name__)
@@ -44,7 +47,7 @@ CLASS_NAMES = [
 ]
 
 
-class PlantDiseaseDetectorProvider(ClassifierProvider):
+class PlantDiseaseDetectorProvider(PlantDiseaseClassifierProvider):
     def __init__(self, settings: Settings) -> None:
         self._settings = settings
         self._device = self._resolve_device(settings.device)
@@ -52,14 +55,14 @@ class PlantDiseaseDetectorProvider(ClassifierProvider):
 
     def load(self) -> None:
         logger.info(
-            "Loading classifier model repo_id=%s filename=%s device=%s",
-            self._settings.model_repo_id,
-            self._settings.model_filename,
+            "Loading plant disease model repo_id=%s filename=%s device=%s",
+            self._settings.plant_model_repo_id,
+            self._settings.plant_model_filename,
             self._device,
         )
         model_path = hf_hub_download(
-            repo_id=self._settings.model_repo_id,
-            filename=self._settings.model_filename,
+            repo_id=self._settings.plant_model_repo_id,
+            filename=self._settings.plant_model_filename,
         )
         checkpoint = torch.load(
             Path(model_path),
@@ -68,9 +71,9 @@ class PlantDiseaseDetectorProvider(ClassifierProvider):
         )
 
         model = timm.create_model(
-            self._settings.model_arch,
+            self._settings.plant_model_arch,
             pretrained=False,
-            num_classes=self._settings.model_num_classes,
+            num_classes=self._settings.plant_model_num_classes,
         )
         state_dict = checkpoint["model_state_dict"] if isinstance(checkpoint, dict) else checkpoint
         model.load_state_dict(state_dict)
@@ -78,11 +81,11 @@ class PlantDiseaseDetectorProvider(ClassifierProvider):
         model.eval()
 
         self._model = model
-        logger.info("Classifier model loaded successfully")
+        logger.info("Plant disease model loaded successfully")
 
-    def predict(self, input_tensor: torch.Tensor, top_k: int) -> list[ClassificationPrediction]:
+    def predict(self, input_tensor: torch.Tensor, top_k: int) -> list[PlantDiseasePrediction]:
         if self._model is None:
-            raise RuntimeError("Classifier model has not been loaded")
+            raise RuntimeError("Plant disease model has not been loaded")
 
         top_k = min(top_k, len(CLASS_NAMES))
         input_tensor = input_tensor.to(self._device)
@@ -93,7 +96,7 @@ class PlantDiseaseDetectorProvider(ClassifierProvider):
             confidence_values, class_indices = torch.topk(probabilities, k=top_k, dim=1)
 
         return [
-            ClassificationPrediction(
+            PlantDiseasePrediction(
                 label=CLASS_NAMES[class_index],
                 confidence=float(confidence),
             )
