@@ -1,0 +1,20 @@
+class,risk level,recommendation,message
+Apple_Scab_Leaf,خطر,Difenoconazole أو Captan أو Mancozeb أو Sulfur,
+Apple_rust_leaf,خطر,Myclobutanil أو Difenoconazole أو Tebuconazole,
+Bell_pepper_leaf,طبيعي,لا توجد توصية رش؛ الورقة سليمة. الاكتفاء بالمتابعة.,
+Bell_pepper_leaf_spot,خطر,Copper hydroxide أو Copper oxychloride + Mancozeb حسب التسجيل المحلي,
+Corn_Gray_leaf_spot,خطر,Azoxystrobin أو Pyraclostrobin أو Propiconazole أو خليط Strobilurin + Triazole,
+Corn_leaf_blight,خطر,Azoxystrobin أو Pyraclostrobin أو Tebuconazole أو Propiconazole,
+Corn_rust_leaf,خطر,Tebuconazole أو Propiconazole أو Azoxystrobin,
+Potato_leaf_early_blight,شديد الخطورة,Mancozeb أو Chlorothalonil أو Azoxystrobin أو Difenoconazole,مرض فطري على البطاطس يسبب بقعًا متحدة المركز على الأوراق وقد يؤدي لفقد كبير في المسطح الورقي وانخفاض حجم الدرنات إذا لم يتم التدخل مبكرًا.
+Potato_leaf_late_blight,شديد الخطورة,Mandipropamid أو Cymoxanil أو Propamocarb أو Fluopicolide أو Mancozeb,من أخطر أمراض البطاطس؛ ينتشر بسرعة مع الرطوبة والجو المعتدل وقد يدمر المجموع الخضري والدرنات خلال فترة قصيرة.
+Squash_Powdery_mildew_leaf,خطر,Sulfur أو Difenoconazole أو Myclobutanil أو Azoxystrobin,
+Tomato_Early_blight_leaf,شديد الخطورة,Mancozeb أو Chlorothalonil أو Azoxystrobin أو Difenoconazole,مرض فطري شائع في الطماطم يضعف الأوراق تدريجيًا، ويقلل التمثيل الضوئي، وقد يسبب خسارة واضحة في الإنتاج خاصة مع الرطوبة وسوء التهوية.
+Tomato_Septoria_leaf_spot,خطر,Chlorothalonil أو Mancozeb أو Copper compounds,
+Tomato_leaf_bacterial_spot,خطر,Copper hydroxide أو Copper oxychloride + Mancozeb حسب التسجيل المحلي,
+Tomato_leaf_late_blight,شديد الخطورة,Mandipropamid أو Cymoxanil أو Propamocarb أو Fluopicolide أو Mancozeb,مرض شديد وسريع الانتشار في الطماطم، يسبب لفحات مائية وبنية على الأوراق والسيقان والثمار، وقد يؤدي لانهيار سريع للمحصول في الظروف الرطبة.
+Tomato_leaf_mosaic_virus,شديد الخطورة,لا يوجد مبيد علاجي مباشر؛ إزالة النباتات المصابة وتعقيم الأدوات ومنع التداول الميكانيكي للعدوى.,مرض فيروسي لا يعالج بالرش بعد الإصابة؛ خطورته في أنه ينتقل ميكانيكيًا بسهولة ويؤثر على النمو وجودة الثمار، لذلك العزل والإزالة أهم من الرش.
+Tomato_leaf_yellow_virus,شديد الخطورة,لا يوجد مبيد علاجي مباشر؛ مكافحة الذبابة البيضاء بـ Pyriproxyfen أو Buprofezin أو Spirotetramat أو Acetamiprid حسب التسجيل.,غالبًا مرتبط بفيروس تجعد واصفرار أوراق الطماطم، وينتقل بواسطة الذبابة البيضاء؛ يسبب تقزمًا وضعف عقد وانخفاضًا كبيرًا في الإنتاج.
+Tomato_mold_leaf,خطر,Chlorothalonil أو Copper compounds أو Azoxystrobin أو Difenoconazole,
+Tomato_two_spotted_spider_mites_leaf,شديد الخطورة,Abamectin أو Bifenazate أو Spiromesifen أو Fenpyroximate,العنكبوت الأحمر/ذو البقعتين يمتص عصارة الورقة ويتكاثر بسرعة في الجو الحار والجاف؛ يسبب اصفرارًا وبرونزية وتساقط أوراق، ومقاومته للمبيدات شائعة إذا لم يتم تدوير المواد.
+grape_leaf_black_rot,شديد الخطورة,Mancozeb أو Myclobutanil أو Tebuconazole أو Captan,مرض فطري خطير في العنب يهاجم الأوراق والثمار، وقد يسبب تعفن الحبات وخسارة تسويقية كبيرة إذا ظهر قبل أو أثناء تكوين العناقيد.
